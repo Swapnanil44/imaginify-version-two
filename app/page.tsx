@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { currentUser } from '@clerk/nextjs/server';
 import { UserButton , SignOutButton, SignInButton, SignUpButton} from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
