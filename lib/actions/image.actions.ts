@@ -66,7 +66,9 @@ export async function getAllImages({
       .expression(expression)
       .execute();
 
+    
     // Rest of your function...
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const resourceIds = resources.map((resource: any) => resource.public_id);
 
     let query = {};
